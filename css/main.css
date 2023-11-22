@@ -1,0 +1,61 @@
+/*GENERALES*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main .contenedorUno {
+  height: 20vh;
+  background-color: red;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .contenedorDos {
+  height: 20vh;
+  background-color: green;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .contenedorCuatro {
+  height: 20vh;
+  background-color: violet;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*Contacto*/
+
+.main .contenedorTres{
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('../img/mapa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.main .contenedorTres .contenedor .contenido{
+  background-color: #0089E0;
+  width: 50%;
+  margin: 0 auto;
+  height: 30vh;
+}
+  
+
+
